@@ -1,0 +1,9 @@
+strict digraph G {
+  1 [ style="solid" label="2; 15" ];
+  2 [ style="solid" label="3; 15" ];
+  3 [ style="bold" label="1; 15" ];
+  4 [ style="bold" label="0; 15" ];
+  1 -> 2 [ style="solid" label="0; 0,0" ];
+  3 -> 1 [ style="solid" label="0; 0,0" ];
+  4 -> 3 [ style="bold" label="0; 0,0" ];
+}

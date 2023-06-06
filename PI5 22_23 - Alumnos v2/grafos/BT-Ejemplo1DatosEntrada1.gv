@@ -1,0 +1,23 @@
+strict digraph G {
+  1 [ style="bold" label="7; 36" ];
+  2 [ style="solid" label="8; 36" ];
+  3 [ style="bold" label="8; 19" ];
+  4 [ style="bold" label="9; 0" ];
+  5 [ style="bold" label="6; 36" ];
+  6 [ style="bold" label="5; 36" ];
+  7 [ style="bold" label="4; 36" ];
+  8 [ style="bold" label="3; 36" ];
+  9 [ style="bold" label="2; 36" ];
+  10 [ style="bold" label="1; 36" ];
+  11 [ style="bold" label="0; 36" ];
+  1 -> 2 [ style="solid" label="0; 0,0" ];
+  3 -> 4 [ style="bold" label="1; 1,0" ];
+  1 -> 3 [ style="bold" label="1; 1,0" ];
+  5 -> 1 [ style="bold" label="0; 0,0" ];
+  6 -> 5 [ style="bold" label="0; 0,0" ];
+  7 -> 6 [ style="bold" label="0; 0,0" ];
+  8 -> 7 [ style="bold" label="0; 0,0" ];
+  9 -> 8 [ style="bold" label="0; 0,0" ];
+  10 -> 9 [ style="bold" label="0; 0,0" ];
+  11 -> 10 [ style="bold" label="0; 0,0" ];
+}

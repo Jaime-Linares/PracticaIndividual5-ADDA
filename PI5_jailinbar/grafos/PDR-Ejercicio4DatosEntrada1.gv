@@ -1,0 +1,13 @@
+strict digraph G {
+  1 [ style="bold" label="4; [0]; [1, 2, 3, 4]; 4,000000" ];
+  2 [ style="bold" label="5; []; [1, 2, 3, 4, 0]; 9,000000" ];
+  3 [ style="bold" label="3; [0, 4]; [1, 2, 3]; 3,000000" ];
+  4 [ style="bold" label="2; [0, 3, 4]; [1, 2]; 2,000000" ];
+  5 [ style="bold" label="1; [0, 2, 3, 4]; [1]; 1,000000" ];
+  6 [ style="bold" label="0; [0, 1, 2, 3, 4]; []; 0,000000" ];
+  1 -> 2 [ style="bold" label="0; -9,00" ];
+  3 -> 1 [ style="bold" label="4; 96,00" ];
+  4 -> 3 [ style="bold" label="3; 197,00" ];
+  5 -> 4 [ style="bold" label="2; 298,00" ];
+  6 -> 5 [ style="bold" label="1; 399,00" ];
+}

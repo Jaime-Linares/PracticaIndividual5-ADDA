@@ -1,0 +1,18 @@
+// TIPOS
+C01: kgdisponibles=35;
+C02: kgdisponibles=4;
+C03: kgdisponibles=12;
+C04: kgdisponibles=5;
+C05: kgdisponibles=30;
+C06: kgdisponibles=42;
+C07: kgdisponibles=3;
+C08: kgdisponibles=2;
+C09: kgdisponibles=20;
+C10: kgdisponibles=3;
+// VARIEDADES
+P01 -> beneficio=60; comp=(C01:0.5),(C03:0.4),(C07:0.1);
+P02 -> beneficio=25; comp=(C02:1);
+P03 -> beneficio=5; comp=(C02:0.4),(C07:0.8);
+P04 -> beneficio=25; comp=(C06:0.8),(C10:0.2);
+P05 -> beneficio=15; comp=(C03:0.4),(C08:0.6);
+P06 -> beneficio=100; comp=(C01:0.2),(C05:0.3),(C06:0.3),(C09:0.2);

@@ -1,0 +1,10 @@
+// TIPOS
+C01: kgdisponibles=11;
+C02: kgdisponibles=9;
+C03: kgdisponibles=7;
+C04: kgdisponibles=12;
+C05: kgdisponibles=6;
+// VARIEDADES
+P01 -> beneficio=20; comp=(C01:0.2),(C02:0.4),(C05:0.4);
+P02 -> beneficio=10; comp=(C02:0.3),(C03:0.7);
+P03 -> beneficio=80; comp=(C01:0.4),(C04:0.6);
